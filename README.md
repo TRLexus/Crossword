@@ -1,3 +1,3 @@
 # CrossWord
 
-A CrossWord Generator developed using HTML, CSS, BootStrap, REACT, FireBase (WIP)
+A CrossWord developed using HTML, CSS, and Reactjs
