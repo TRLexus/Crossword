@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+import Crossword from './components/Crossword';
+import CrosswordHints from './components/CrosswordHints';
+import './App.css'; // Sesuaikan jika ada perubahan pada file CSS aplikasi
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <h1>Crossword Puzzle</h1>
+            <Crossword />
+            {/* Posisikan komponen CrosswordHints sesuai kebutuhan */}
+            <CrosswordHints hints={['Petunjuk 1', 'Petunjuk 2', 'Petunjuk 3']} />
+        </div>
+    );
 }
 
 export default App;
