@@ -28,11 +28,11 @@ const Crossword = () => {
     const [hints, setHints] = React.useState([
         // Daftar petunjuk
     ]);
-    
+
     const checkAnswers = () => {
         // Logika untuk memeriksa jawaban dan memberikan umpan balik
     };
-    
+
     return (
         <div>
             {grid.map((row, rowIndex) => (
