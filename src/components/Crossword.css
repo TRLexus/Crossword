@@ -1,21 +1,4 @@
-/* App.css */
-
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-.App {
-    text-align: center;
-}
-
-h1 {
-    color: #333;
-}
-
-/* Crossword component styles (adjust as needed) */
+/* Crossword.css */
 .crossword {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
@@ -43,11 +26,3 @@ h1 {
     text-align: center;
     background-color: #fff;
 }
-
-/* Additional styling for hints (optional) */
-.CrosswordHints {
-    margin-top: 20px;
-    text-align: left;
-}
-
-  /* Add your own custom styles as needed */
