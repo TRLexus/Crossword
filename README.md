@@ -1,3 +1,3 @@
 # CrossWord
 
-A CrossWord developed using HTML, CSS, and Reactjs
+A CrossWord developed using Reactjs
